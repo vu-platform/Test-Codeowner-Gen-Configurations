@@ -1,0 +1,5 @@
+# This file will be overwritten on the first deploy through Mia
+# Additional information can be found: https://vuconfluence.atlassian.net/wiki/x/iYNgoAU#First-Deploy
+miabusinessapp:
+  bizAppName: "test-codeowner-gen-prod"
+

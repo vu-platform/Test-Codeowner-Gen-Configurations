@@ -1,0 +1,12 @@
+# Additional information can be found: https://helm.sh/docs/topics/charts/#the-chartyaml-file
+apiVersion: v2
+name: "test-codeowner-gen-dev"
+description: A Helm chart for Kubernetes
+type: application
+version: 0.2.0
+appVersion: "1.0"
+dependencies:
+  - name: miabusinessapp
+    version: 2.4.0
+    repository: oci://harbor.redchimney.com/dockerhub/mrcenter
+
